@@ -1,7 +1,7 @@
 import { useEffect, useRef, useState } from 'react';
 import './App.css';
 
-function App() {
+function AppTooted() {
     const [tooted, setTooted] = useState([]);
     const idRef = useRef();
     const nameRef = useRef();
@@ -52,4 +52,4 @@ function App() {
         </div>
     );
 }
-export default App;
+export default AppTooted;
